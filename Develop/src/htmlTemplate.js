@@ -14,7 +14,7 @@ const generateManager = function (manager) {
 };
 
 // create engineer card
-const createEngineer = function (engineer) {
+const generateEngineer = function (engineer) {
     return `
     <div class="card-header">
         <h2>${engineer.name}</h2>
@@ -29,7 +29,7 @@ const createEngineer = function (engineer) {
 };
 
 // create intern card
-const createIntern = function (engineer) {
+const generateIntern = function (engineer) {
     return `
     <div class="card-header">
         <h2>${intern.name}</h2>
